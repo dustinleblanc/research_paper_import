@@ -1,0 +1,21 @@
+{
+    "name": "drupal/research_paper_import",
+    "type": "drupal-module",
+    "description": "Handles importation and querying of research papers from scholarly sources",
+    "keywords": ["Drupal"],
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Dustin LeBlanc (dustinleblanc)",
+            "homepage": "https://www.dustinleblanc.com",
+            "role": "Maintainer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "dustinleblanc/zotero-api": "0.0.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    }
+}
