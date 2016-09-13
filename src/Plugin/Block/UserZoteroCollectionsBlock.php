@@ -1,27 +1,25 @@
 <?php
 
-namespace Drupal\research_paper_import\Plugin\Block;
+namespace Drupal\zotero_import\Plugin\Block;
 
 use Drupal\Core\Block\BlockBase;
+use Drupal\user\Entity\User;
+use DustinLeblanc\Zotero\Client;
+use GuzzleHttp\Psr7\Response;
 
 /**
- * Provides a 'UserZoteroCollectionsBlock' block.
+ * Provides a 'Zotero Collections' block.
  *
  * @Block(
  *  id = "user_zotero_collections_block",
- *  admin_label = @Translation("User zotero collections block"),
+ *  admin_label = @Translation("Zotero Collections"),
  * )
  */
 class UserZoteroCollectionsBlock extends BlockBase {
-
   /**
    * {@inheritdoc}
    */
   public function build() {
-    $build = [];
-    $build['user_zotero_collections_block']['#markup'] = 'Implement UserZoteroCollectionsBlock.';
-    $collections = DustinLeblanc\Zotero\Client::
-    return $build;
+    return \Drupal::formBuilder()->getForm('\Drupal\zotero_import\Form\CollectionBlockForm');
   }
-
 }

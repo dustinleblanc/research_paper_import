@@ -1,7 +1,7 @@
 {
-    "name": "drupal/research_paper_import",
+    "name": "drupal/zotero_import",
     "type": "drupal-module",
-    "description": "Handles importation and querying of research papers from scholarly sources",
+    "description": "Handles importation and querying of documents from Zotero",
     "keywords": ["Drupal"],
     "license": "GPL-2.0+",
     "authors": [
@@ -12,6 +12,11 @@
         }
     ],
     "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Drupal\\zotero_import\\": "src/"
+        }
+    },
     "require": {
         "dustinleblanc/zotero-api": "0.0.1"
     },

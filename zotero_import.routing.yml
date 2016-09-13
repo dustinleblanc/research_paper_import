@@ -1,0 +1,17 @@
+zotero_import.fetch_library:
+    path: '/zotero_import/fetch_library'
+    defaults:
+        _controller: '\Drupal\zotero_import\Controller\ZoteroImportController::fetchLibrary'
+        _title: 'Fetch Library'
+    requirements:
+        _permission: 'access content'
+
+
+zotero_import.collection_block_form:
+  path: '/zotero_import/form/collection_block'
+  defaults:
+    _form: '\Drupal\zotero_import\Form\CollectionBlockForm'
+    _title: 'CollectionBlockForm'
+  requirements:
+    _access: 'TRUE'
+  

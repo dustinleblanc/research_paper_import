@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7c59a92cf3f6a4edb47658b068a1b0e7",
+    "hash": "9de43fe0aa2acd278f24f2d61eb83f88",
     "content-hash": "262e2388baf45c83f0c3987825c48acd",
     "packages": [
         {
@@ -233,12 +233,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/http-message.git",
-                "reference": "d0aabc038f1f3ff665dfe1e9673bcd0df609c681"
+                "reference": "14b9b813c5e36af4498ef38ef97938bf7090fd52"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/http-message/zipball/d0aabc038f1f3ff665dfe1e9673bcd0df609c681",
-                "reference": "d0aabc038f1f3ff665dfe1e9673bcd0df609c681",
+                "url": "https://api.github.com/repos/php-fig/http-message/zipball/14b9b813c5e36af4498ef38ef97938bf7090fd52",
+                "reference": "14b9b813c5e36af4498ef38ef97938bf7090fd52",
                 "shasum": ""
             },
             "require": {
@@ -275,7 +275,7 @@
                 "request",
                 "response"
             ],
-            "time": "2016-08-03 19:47:37"
+            "time": "2016-08-05 11:47:47"
         }
     ],
     "packages-dev": [
