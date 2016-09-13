@@ -1,5 +1,5 @@
 {
-    "name": "drupal/zotero_import",
+    "name": "dustinleblanc/zotero_import",
     "type": "drupal-module",
     "description": "Handles importation and querying of documents from Zotero",
     "keywords": ["Drupal"],
